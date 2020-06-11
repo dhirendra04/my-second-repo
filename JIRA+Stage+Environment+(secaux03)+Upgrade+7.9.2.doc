@@ -1,0 +1,518 @@
+Message-ID: <1066641623.149583.1591901272398.JavaMail.pesadmin@pla-w01eaux06.walgreens.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_149582_17133547.1591901272397"
+
+------=_Part_149582_17133547.1591901272397
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>JIRA Stage Environment (secaux03) Upgrade 7.9.2</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>JIRA Stage Environment (secaux03) Upgrade 7.9.2</h1>
+    <div class=3D"Section1">
+        <h4 id=3D"JIRAStageEnvironment(secaux03)Upgrade7.9.2-DATE:9/20/2018=
+|SettingUpstagingEnvironment(7.9.2)">DATE : 9/20/2018 | &nbsp;Setting Up st=
+aging Environment(7.9.2)</h4>=20
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<th class=3D"confluenceTh"><p> # </p></th>=20
+<th class=3D"confluenceTh"><p> Pre-Tasks </p></th>=20
+<th class=3D"confluenceTh"><p> Owner </p></th>=20
+<th class=3D"confluenceTh"><p> Status </p></th>=20
+<th class=3D"confluenceTh"><p> Start Time </p></th>=20
+<th class=3D"confluenceTh"><p> End Time </p></th>=20
+<th class=3D"confluenceTh"><p> Remarks </p></th>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 1 </p></td>=20
+<td class=3D"confluenceTd"><p> Check if New server(secaux03) is compatible =
+with Atlassian system Requirement. <br class=3D"atl-forced-newline"> </p></=
+td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-green-star" =
+src=3D"7e81f2cfb756023f50257d43ec99af05" data-emoticon-name=3D"green-star" =
+alt=3D"(green star)"><br class=3D"atl-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> 9/17 </p></td>=20
+<td class=3D"confluenceTd"><p> 9/17 </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> <strong>#</strong> </p></td>=20
+<td class=3D"confluenceTd"><p> <strong>Steps Involved in setting Up staging=
+ of 7.9.2&nbsp;</strong> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 1. </p></td>=20
+<td class=3D"confluenceTd"><p> Backup the existing Staging JIRA setup by us=
+ing backup and restore option http://secaux03.walgreens.com:8095/secure/adm=
+in/XmlBackup\!default.jspa\|http://secaux03.walgreens.com:8095/secure/admin=
+/XmlBackup\!default.jspa (http://secaux03.walgreens.com:8095/secure/admin/X=
+mlBackup\!default.jspa) </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> 9/20 1:00 AM </p></td>=20
+<td class=3D"confluenceTd"><p> 9/20&nbsp; <br class=3D"atl-forced-newline">=
+ 1:15 AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 2 </p></td>=20
+<td class=3D"confluenceTd"><p> Stop JIRA on staging (secaux03) </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> 9/20&nbsp; <br class=3D"atl-forced-newline">=
+ 1:15 AM </p></td>=20
+<td class=3D"confluenceTd"><p> 9/20&nbsp; <br class=3D"atl-forced-newline">=
+ 1:20 AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 3 </p></td>=20
+<td class=3D"confluenceTd"><p> Take installation directory backup of secaux=
+03 to restore at any time </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20 1:00 AM </p></td>=20
+<td class=3D"confluenceTd"><p> 9/20&nbsp; <br class=3D"atl-forced-newline">=
+ 1:15 AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 4. </p></td>=20
+<td class=3D"confluenceTd"><p> Take Mysql database backup of secaux03 using=
+ mysql dump command. </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> 9/20 1:15 AM <br class=3D"atl-forced-newline=
+"> </p></td>=20
+<td class=3D"confluenceTd"><p> 9/20 1:20 AM <br class=3D"atl-forced-newline=
+"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 5 </p></td>=20
+<td class=3D"confluenceTd"><p> Copy over Installation directory from Produc=
+tion (pla-w01eaux03) <br class=3D"atl-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> 9/20&nbsp; <br class=3D"atl-forced-newline">=
+ 1:20 AM </p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20&nbsp; <br class=3D"atl-forced-new=
+line"> 1:30 AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 6 </p></td>=20
+<td class=3D"confluenceTd"><p> Make edits to config files such as &nbsp;(se=
+rver.xml, setenv.sh) to copied in <strong>step 4</strong> </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20&nbsp; <br class=3D"atl-forced-new=
+line"> 1:30 AM </p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20&nbsp; <br class=3D"atl-forced-new=
+line"> 1:50 AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 7 </p></td>=20
+<td class=3D"confluenceTd"><p> Generate XML backup from Production(pla-w01e=
+aux03) using&nbsp;https://ecomjira.walgreens.com/secure/admin/XmlBackup!def=
+ault.jspa (https://ecomjira.walgreens.com/secure/admin/XmlBackup\!default.j=
+spa) </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> 9/20&nbsp;&nbsp; <br class=3D"atl-forced-new=
+line"> 1:30 AM <br class=3D"atl-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> 9/20&nbsp;&nbsp; <br class=3D"atl-forced-new=
+line"> 1:50 AM <br class=3D"atl-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 8. </p></td>=20
+<td class=3D"confluenceTd"><p> Copy recent export file .zip file from pla-w=
+01eaux03(/usr/local/ecomm/atlassian/data/jira/jira-data/export) to secaux03=
+(/usr/local/ecomm/env/atlassian/jira-data/import) </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20&nbsp; <br class=3D"atl-forced-new=
+line"> 1:50 AM </p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20&nbsp; <br class=3D"atl-forced-new=
+line"> 2:00 <br class=3D"atl-forced-newline"> AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 9. </p></td>=20
+<td class=3D"confluenceTd"><p> Start JIRA on secaux03, Make sure it's UP. <=
+/p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20&nbsp; <br class=3D"atl-forced-new=
+line"> 2:00 <br class=3D"atl-forced-newline"> AM </p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20&nbsp; <br class=3D"atl-forced-new=
+line"> 2:20 <br class=3D"atl-forced-newline"> AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 10. </p></td>=20
+<td class=3D"confluenceTd"><p> Navigate to&nbsp;http://secaux03.walgreens.c=
+om:8095/secure/admin/XmlRestore\!default.jspa\|http://secaux03.walgreens.co=
+m:8095/secure/admin/XmlRestore\!default.jspa (http://secaux03.walgreens.com=
+:8095/secure/admin/XmlRestore\!default.jspa)and enter the .zip file name wh=
+ich is copied as per <strong>step 3</strong> and restore the Production con=
+tent. </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> 9/20&nbsp; <br class=3D"atl-forced-newline">=
+ 2:20 <br class=3D"atl-forced-newline"> AM <br class=3D"atl-forced-newline"=
+> </p></td>=20
+<td class=3D"confluenceTd"><p> 9/20&nbsp;3:30 <br class=3D"atl-forced-newli=
+ne"> AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 11 </p></td>=20
+<td class=3D"confluenceTd"><p> Perform Re-indexing by locking staging insta=
+nce (secaux03) </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin&nbsp; <br class=3D"atl-forced-new=
+line"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> 9/20 3:30 AM </p></td>=20
+<td class=3D"confluenceTd"><p> 9/20 6:30 AM <br class=3D"atl-forced-newline=
+"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 12. </p></td>=20
+<td class=3D"confluenceTd"><p> <span style=3D"color: rgb(0,0,0);">Once syst=
+em is up , upgrade the plugins.</span>&nbsp;<a href=3D"https://ecomwiki.wal=
+greens.com/display/JIRAWIKI/JIRA+Plugin+Assessment" rel=3D"nofollow">https:=
+//ecomwiki.walgreens.com/display/JIRAWIKI/JIRA+Plugin+Assessment</a> <br cl=
+ass=3D"atl-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20 6:30 <br class=3D"atl-forced-newl=
+ine"> AM </p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20 7:00 <br class=3D"atl-forced-newl=
+ine"> AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 13 </p></td>=20
+<td class=3D"confluenceTd"><p> Check for plugin functionality </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin&nbsp; <br class=3D"atl-forced-new=
+line"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> 9/20 7:00 <br class=3D"atl-forced-newline"> =
+AM <br class=3D"atl-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> 9/20 7:15 <br class=3D"atl-forced-newline"> =
+AM <br class=3D"atl-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 14 </p></td>=20
+<td class=3D"confluenceTd"><p> Restart Jira one last time to reflect all ch=
+anges <br class=3D"atl-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> 9/20 7:15 <br class=3D"atl-forced-newline"> =
+AM </p></td>=20
+<td class=3D"confluenceTd"><p> 9/20 7:30 <br class=3D"atl-forced-newline"> =
+AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 15 </p></td>=20
+<td class=3D"confluenceTd"><p> <span style=3D"color: rgb(0,0,0);">Jira Admi=
+n and RM conduct testing in Staging instance&nbsp;</span><br class=3D"atl-f=
+orced-newline"> <strong><span style=3D"text-decoration: underline;">Verific=
+ation</span></strong>&nbsp;<span style=3D"text-decoration: underline;">(Hig=
+h Level)</span>&nbsp;&nbsp; <br class=3D"atl-forced-newline"> 1). Login/Log=
+out using LDAP&nbsp;&nbsp; <br class=3D"atl-forced-newline"> 2). Ticket Cre=
+ation&nbsp;&nbsp; <br class=3D"atl-forced-newline"> 3). Workflow &amp; Tick=
+et transitions&nbsp;&nbsp; <br class=3D"atl-forced-newline"> 4). Project ac=
+cess&nbsp;&nbsp; <br class=3D"atl-forced-newline"> 5). Filters &amp; JQL Ch=
+ecks&nbsp;&nbsp; <br class=3D"atl-forced-newline"> 6). Structure &amp; Xray=
+ plugin check and data validation <br class=3D"atl-forced-newline"> </p></t=
+d>=20
+<td class=3D"confluenceTd"><p> JIRA Admin and RM <br class=3D"atl-forced-ne=
+wline"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20 7:30&nbsp; <br class=3D"atl-force=
+d-newline"> AM </p></td>=20
+<td class=3D"confluenceTd"><p> &nbsp;9/20 7:45 <br class=3D"atl-forced-newl=
+ine"> AM </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> <strong>#</strong> </p></td>=20
+<td class=3D"confluenceTd"><p> <strong>Roll back</strong> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 1 </p></td>=20
+<td class=3D"confluenceTd"><p> Restore .zip file taken during &nbsp;<strong=
+>step 1</strong> by&nbsp;following&nbsp;backup and restore feature of JIRA =
+</p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Admin <br class=3D"atl-forced-newline">=
+ </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_149582_17133547.1591901272397
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: 7bit
+Content-Location: file:///C:/7e81f2cfb756023f50257d43ec99af05
+
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.001 13.408l-3.785 2.433c-.753.484-1.714-.19-1.516-1.063l1.048-4.613L.332 7.091c-.65-.586-.287-1.667.586-1.74l4.436-.372L7.07.632c.334-.843 1.527-.843 1.86 0L10.65 4.98l4.436.372c.873.073 1.236 1.154.585 1.74l-3.415 3.074 1.048 4.613c.198.874-.763 1.547-1.516 1.063l-3.786-2.433z" fill="#36B37E" fill-rule="nonzero"/></svg>
+------=_Part_149582_17133547.1591901272397--

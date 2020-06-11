@@ -1,0 +1,709 @@
+Message-ID: <2087040029.149575.1591900946285.JavaMail.pesadmin@pla-w01eaux06.walgreens.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_149574_1116888150.1591900946285"
+
+------=_Part_149574_1116888150.1591900946285
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Mysql, WIKI installation on Azure &quot;qlaanujira01-01&quot; an=
+d data migration from Ecomjira/WIKI to qlaanujira01-01 Plan.</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Mysql, WIKI installation on Azure &quot;qlaanujira01-01&quot; and d=
+ata migration from Ecomjira/WIKI to qlaanujira01-01 Plan.</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"wrapped confluenceTable">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class=3D"confluenceTh"><p>Icon</p></th>
+<th class=3D"confluenceTh"><p>Meaning</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er"><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluen=
+ce-embedded-image emoticon emoticon-yellow-star confluence-external-resourc=
+e" alt=3D"(star)" src=3D"e8833b70f6b97366aaeb9cb55febd621" data-image-src=
+=3D"https://ecomwiki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf=
+16ec6d71d5b89/_/images/icons/emoticons/star_yellow.svg"></span></span></p><=
+/td>
+<td class=3D"confluenceTd"><p>In Progress</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er"><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluen=
+ce-embedded-image emoticon emoticon-green-star confluence-external-resource=
+" alt=3D"(green star)" src=3D"0544e6d734e5339513ac8174b898d522" data-image-=
+src=3D"https://ecomwiki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89c=
+caf16ec6d71d5b89/_/images/icons/emoticons/star_green.svg"></span></span></p=
+></td>
+<td class=3D"confluenceTd"><p>Completed</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er"><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluen=
+ce-embedded-image emoticon emoticon-red-star confluence-external-resource" =
+alt=3D"(red star)" src=3D"4ed6fb073dba456b77d09f110cc09f9b" data-image-src=
+=3D"https://ecomwiki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf=
+16ec6d71d5b89/_/images/icons/emoticons/star_red.svg"></span></span></p></td=
+>
+<td class=3D"confluenceTd"><p>Delayed/ Dropped/ Will not complete</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er"><span class=3D"confluence-embedded-file-wrapper"><img class=3D"confluen=
+ce-embedded-image emoticon emoticon-blue-star confluence-external-resource"=
+ alt=3D"(blue star)" src=3D"9c671dfea37bbae0d093c361cb69dcb6" data-image-sr=
+c=3D"https://ecomwiki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89cca=
+f16ec6d71d5b89/_/images/icons/emoticons/star_blue.svg"></span></span></p></=
+td>
+<td class=3D"confluenceTd"><p>Due Date</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 3.78251%;">
+<col style=3D"width: 40.3467%;">
+<col style=3D"width: 9.85028%;">
+<col style=3D"width: 5.12214%;">
+<col style=3D"width: 7.48621%;">
+<col style=3D"width: 7.48621%;">
+<col style=3D"width: 25.9259%;">
+</colgroup>
+<thead>
+<tr>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;">#</p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;">Pre-Tasks</p></=
+th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;">Owner</p></th>
+<th class=3D"confluenceTh"><p>Status</p></th>
+<th class=3D"confluenceTh"><p>Start Time</p></th>
+<th class=3D"confluenceTh"><p>End Time</p></th>
+<th class=3D"confluenceTh"><p>Remarks</p></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd"><str=
+ong>1</strong></td>
+<td colspan=3D"1" class=3D"confluenceTd">Request Unix LDAP ID to login on s=
+ervers(<a class=3D"external-link" href=3D"https://walgreens-int.onbmc.com/a=
+rsys/forms/walgreens-s/SRS%3AServiceRequestConsole/Default+Administrator+Vi=
+ew/?cacheid=3D700c0a08&amp;mode=3DCREATE" rel=3D"nofollow">Unix S4 ID &amp;=
+ Group Access</a>) and request for ecomoc access on&nbsp;<a class=3D"extern=
+al-link" href=3D"https://login.walgreens.com/oamsso-bin/login.pl" rel=3D"no=
+follow">https://login.walgreens.com/oamsso-bin/login.pl</a>?</td>
+<td colspan=3D"1" class=3D"confluenceTd">JIRA Admin</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span class=3D"confluence-embedded=
+-file-wrapper image-center-wrapper"><span class=3D"confluence-embedded-file=
+-wrapper image-center-wrapper"><img class=3D"confluence-embedded-image emot=
+icon emoticon-green-star confluence-external-resource image-center" alt=3D"=
+(green star)" src=3D"0544e6d734e5339513ac8174b898d522" data-image-src=3D"ht=
+tps://ecomwiki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf16ec6d=
+71d5b89/_/images/icons/emoticons/star_green.svg"></span></span></td>
+<td colspan=3D"1" class=3D"confluenceTd">2/4/2020</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/5/2020</span></td>
+<td colspan=3D"1" class=3D"confluenceTd">Got sudo access on qlaanujira01-01=
+</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;">1.1</p></td>
+<td class=3D"confluenceTd"><p><span>Check if New server is compatible with =
+Atlassian system Requirement</span></p></td>
+<td class=3D"confluenceTd"><p><span>JIRA Admin</span></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er image-center-wrapper"> <span class=3D"confluence-embedded-file-wrapper">=
+<img class=3D"confluence-embedded-image emoticon emoticon-green-star conflu=
+ence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e5339513ac817=
+4b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_US/7702/fe=
+e96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/star_green.=
+svg"></span><br></span></p></td>
+<td class=3D"confluenceTd"><p><span>2/18/2020</span></p></td>
+<td class=3D"confluenceTd"><p><span>2/18/2020</span></p></td>
+<td class=3D"confluenceTd"><p><span>Checked for glibc, java, mysql</span></=
+p></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">1.2<p><br></p></td=
+>
+<td class=3D"confluenceTd"><p>Confirm Firewalls open to&nbsp;&nbsp;qlaanuji=
+ra01-01</p></td>
+<td class=3D"confluenceTd"><p>Tom/Cicero</p></td>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er image-center-wrapper"><span class=3D"confluence-embedded-file-wrapper im=
+age-center-wrapper"><img class=3D"confluence-embedded-image emoticon emotic=
+on-green-star confluence-external-resource image-center" alt=3D"(green star=
+)" src=3D"0544e6d734e5339513ac8174b898d522" data-image-src=3D"https://ecomw=
+iki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/i=
+mages/icons/emoticons/star_green.svg"></span><br><br></span></p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><p>NA/ it is already Open status.</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">1.3<=
+/td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><p style=3D"text-align: center;"><strong><span style=3D"color: =
+rgb(0,0,0);"><strong style=3D"text-align: center;">Prod Day Deployment</str=
+ong></span></strong></p></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><p style=3D"text-align: center;"><br></p></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><p><br></p></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><p><strong>&nbsp;</strong></p></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><p><strong>&nbsp;</strong></p></td>
+<td class=3D"highlight-grey confluenceTd" colspan=3D"1" data-highlight-colo=
+ur=3D"grey"><p><br></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;">1.4</p></td>
+<td class=3D"confluenceTd"><p>List out the available plugins in Secaux03 en=
+vironment to cross verify after Migration data migration</p></td>
+<td class=3D"confluenceTd"><p><span>JIRA Admin</span></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er image-center-wrapper"><span class=3D"confluence-embedded-file-wrapper im=
+age-center-wrapper"><img class=3D"confluence-embedded-image emoticon emotic=
+on-green-star confluence-external-resource image-center" alt=3D"(green star=
+)" src=3D"0544e6d734e5339513ac8174b898d522" data-image-src=3D"https://ecomw=
+iki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/i=
+mages/icons/emoticons/star_green.svg"></span></span></p></td>
+<td class=3D"confluenceTd">2/17/2020<br> 1 AM</td>
+<td class=3D"confluenceTd"><p>2/17/2020 1:10 AM</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0,255);"><stron=
+g><u>RM:</u> </strong>Plugins needs to be same as Prodwiki &amp; also inclu=
+de the evaluation plugins that's running on secaux03, Also Create / update =
+the latest Plugin assessment page and link it here below the description</s=
+pan></p><p><span style=3D"color: rgb(255,0,255);">Sure, as of now it have s=
+ame as secaux03. will update same as prod &amp; update</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;">1.5</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Download M=
+ysql 5.6.41 version from </span><a class=3D"external-link" href=3D"https://=
+downloads.mysql.com/archives/community/" rel=3D"nofollow" style=3D"letter-s=
+pacing: 0.0px;">https://downloads.mysql.com/archives/community/</a></p></td=
+>
+<td class=3D"confluenceTd"><p>Jira Admin</p></td>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er image-center-wrapper"><span class=3D"confluence-embedded-file-wrapper im=
+age-center-wrapper"><img class=3D"confluence-embedded-image emoticon emotic=
+on-green-star confluence-external-resource image-center" alt=3D"(green star=
+)" src=3D"0544e6d734e5339513ac8174b898d522" data-image-src=3D"https://ecomw=
+iki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/i=
+mages/icons/emoticons/star_green.svg"></span><br></span></p></td>
+<td class=3D"confluenceTd">2/17/2020<br> 1:10 AM</td>
+<td class=3D"confluenceTd">2/17/2020<br> 2:30 AM</td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">1.6<=
+/td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Install M<span style=3D"color: =
+rgb(0,0,0);">ysql 5.6.41 on <span>qlaanujira01-01</span></span></p><p><span=
+ style=3D"color: rgb(0,0,0);">Create database "Confluencedb", Set password =
+for Root user and update permission for root user to perform required actio=
+n on database.</span></p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Jira Admin</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span class=3D"confluence-embedded=
+-file-wrapper image-center-wrapper"><span class=3D"confluence-embedded-file=
+-wrapper image-center-wrapper"><img class=3D"confluence-embedded-image emot=
+icon emoticon-green-star confluence-external-resource image-center" alt=3D"=
+(green star)" src=3D"0544e6d734e5339513ac8174b898d522" data-image-src=3D"ht=
+tps://ecomwiki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf16ec6d=
+71d5b89/_/images/icons/emoticons/star_green.svg"></span><br></span></td>
+<td colspan=3D"1" class=3D"confluenceTd">2/17/2020<br> 2:30 AM</td>
+<td colspan=3D"1" class=3D"confluenceTd">2/17/2020<br> 3:30 AM</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td style=3D"text-align: center;" class=3D"confluenceTd">1.7</td>
+<td class=3D"confluenceTd"><p>"Download <span>confluence version 6.10.2 f</=
+span>rom <a class=3D"external-link" href=3D"https://www.atlassian.com/softw=
+are/confluence/download-archives" rel=3D"nofollow">https://www.atlassian.co=
+m/software/confluence/download-archives</a></p><p>Install Confluence on <st=
+rong>qlaanujira01-01 </strong>Host<br>Mention Software, data directory loca=
+tion and port number while installing confluence.</p></td>
+<td class=3D"confluenceTd"><br></td>
+<td class=3D"confluenceTd"><span class=3D"confluence-embedded-file-wrapper =
+image-center-wrapper"><span class=3D"confluence-embedded-file-wrapper image=
+-center-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-=
+green-star confluence-external-resource image-center" alt=3D"(green star)" =
+src=3D"0544e6d734e5339513ac8174b898d522" data-image-src=3D"https://ecomwiki=
+.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/imag=
+es/icons/emoticons/star_green.svg"></span><br></span></td>
+<td class=3D"confluenceTd"><span>2/17/2020</span><br><span> 3:30 AM</span><=
+/td>
+<td class=3D"confluenceTd"><span>2/17/2020</span><br><span> 4:00 AM</span><=
+/td>
+<td class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">1.8<=
+/td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Download mysql JDBC driver and =
+copy it in confluence Directory <span><strong>/confluence/WEB-INF/lib</stro=
+ng></span></p></td>
+<td colspan=3D"1" class=3D"confluenceTd">QA Team</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span class=3D"confluence-embedded=
+-file-wrapper image-center-wrapper"><span class=3D"confluence-embedded-file=
+-wrapper image-center-wrapper"><img class=3D"confluence-embedded-image emot=
+icon emoticon-green-star confluence-external-resource image-center" alt=3D"=
+(green star)" src=3D"0544e6d734e5339513ac8174b898d522" data-image-src=3D"ht=
+tps://ecomwiki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf16ec6d=
+71d5b89/_/images/icons/emoticons/star_green.svg"></span></span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/17/2020</span><br><span> 4=
+:00 AM</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/17/2020</span><br><span> 4=
+:30 AM</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">1.9<=
+/td>
+<td colspan=3D"1" class=3D"confluenceTd"><p>Start Confluence service.</p><p=
+>Access WIKI/confluence , test database connection and complete Database Se=
+tup.</p><p>Stop confluence service</p></td>
+<td colspan=3D"1" class=3D"confluenceTd">Jira Admin</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span class=3D"confluence-embedded=
+-file-wrapper image-center-wrapper"><img class=3D"confluence-embedded-image=
+ emoticon emoticon-green-star confluence-external-resource image-center" al=
+t=3D"(green star)" src=3D"0544e6d734e5339513ac8174b898d522" data-image-src=
+=3D"https://ecomwiki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf=
+16ec6d71d5b89/_/images/icons/emoticons/star_green.svg"></span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/17/2020</span><br><span> 4=
+:30 AM</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/17/2020</span><br><span> 5=
+:00 AM</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><br></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;">2</p></th>
+<th class=3D"highlight-grey confluenceTh" data-highlight-colour=3D"grey"><p=
+ style=3D"text-align: center;">Data base Backup and restore</p></th>
+<th class=3D"confluenceTh"><br></th>
+<th class=3D"confluenceTh"><br></th>
+<th class=3D"confluenceTh"><br></th>
+<th class=3D"confluenceTh"><br></th>
+<th class=3D"confluenceTh"><br></th>
+</tr>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">2.1<=
+/td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><span><span style=3D"color: rgb=
+(0,0,0);">Back Up Confluence DB using Mysql method on Secaux03</span></span=
+></p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);"=
+>Jira Admin</span>&nbsp;</td>
+<td colspan=3D"1" class=3D"confluenceTd"><span class=3D"confluence-embedded=
+-file-wrapper image-center-wrapper"><img class=3D"confluence-embedded-image=
+ emoticon emoticon-green-star confluence-external-resource image-center" al=
+t=3D"(green star)" src=3D"0544e6d734e5339513ac8174b898d522" data-image-src=
+=3D"https://ecomwiki.walgreens.com/s/en_US/7702/fee96fdad3b600d4843bc89ccaf=
+16ec6d71d5b89/_/images/icons/emoticons/star_green.svg"></span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/17/2020</span><br><span> 5=
+:00 AM</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/17/2020</span><br><span> 5=
+:30 AM</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0=
+,255);"><u><strong>RM:</strong></u><strong> </strong>This data has to be po=
+rted from Production to check the application stability in Azure, please wo=
+rk on taking a database backup during Prod Maintenance and re-import the My=
+sql alone</span></p><p><span style=3D"color: rgb(255,0,255);">Sure, will do=
+ same.</span></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;">2.2</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Restore Se=
+caux03 Mysql database on <strong>qlaanujira01-01 </strong><span>Host (New d=
+atabase)</span><br></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er"><img class=3D"confluence-embedded-image emoticon emoticon-green-star co=
+nfluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e5339513a=
+c8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_US/770=
+2/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/star_gr=
+een.svg"></span></p></td>
+<td class=3D"confluenceTd"><p><span>2/17/2020</span><br><span> 5:30 AM</spa=
+n></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span>2/17/2020</span><br><span> 6:30 A=
+M</span></p></td>
+<td class=3D"confluenceTd">Currently we have issue to move data base backup=
+ to new server due to space on /tmp directory and permission</td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;">2.3</p></td>
+<td class=3D"confluenceTd"><p><span>Start WIKI service.</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er"><img class=3D"confluence-embedded-image emoticon emoticon-green-star co=
+nfluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e5339513a=
+c8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_US/770=
+2/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/star_gr=
+een.svg"></span></p></td>
+<td class=3D"confluenceTd"><p><span>2/17/2020</span><br><span> 6:30 AM</spa=
+n></p></td>
+<td class=3D"confluenceTd"><p><span>2/17/2020</span><br><span> 6:40 AM</spa=
+n></p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td colspan=3D"1" class=3D"confluenceTd">2.4</td>
+<td colspan=3D"1" class=3D"confluenceTd"><p><span><span>Do the Plugin insta=
+llation </span></span></p><p>Team Calendars 6.0.42 and<br>Gliffy Diagrams f=
+or Confluence 8.4.3</p></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span style=3D"color: rgb(0,0,0);"=
+>Jira Admin</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/17/2020</span><br><span> 6=
+:40 AM</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/17/2020</span><br><span> 7=
+:00 AM</span></td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;">2.5</p></td>
+<td class=3D"confluenceTd"><p>Complete the Indexing and Do LDAP setting</p>=
+</td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p><span>2/17/2020</span><br><span> 7:00 AM</spa=
+n></p></td>
+<td class=3D"confluenceTd"><span>2/17/2020</span><br><span> 8:30 AM</span><=
+/td>
+<td class=3D"confluenceTd"><p>Indexing is running on <strong>qlaanujira01-0=
+1</strong></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;">2.6</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Restart Wi=
+ki Service</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p><span>2/17/2020</span><br><span> 8:30 AM</spa=
+n></p></td>
+<td class=3D"confluenceTd"><span>2/17/2020</span><br><span> 8:50 AM</span><=
+/td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;">2.7</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+ and OC and QA will conduct testing in Upgraded Wiki</span></p><p><strong><=
+span>Verification</span></strong>&nbsp;<span>(High Level)</span>&nbsp;&nbsp=
+;<br class=3D"atl-forced-newline">1). Login/Logout using LDAP&nbsp;&nbsp;<b=
+r class=3D"atl-forced-newline">2). Spaces and Page Creation / Update<br cla=
+ss=3D"atl-forced-newline">3). Check for number of Space, pages<br>4). Check=
+ for Attachments<br>5) Check for Application Links between Jira</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+ and OC and QA, RM</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p><span>2/17/2020</span><br><span> 8:50 AM</spa=
+n></p></td>
+<td class=3D"confluenceTd"><span>2/19/2020</span><br><span>7:30 AM</span></=
+td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p style=3D"text-align: center;">2.11</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Notify use=
+rs to start using Wiki</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">RM</span><=
+/p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p><span>2/20/2020</span><br><span> 2:00 AM</spa=
+n></p></td>
+<td class=3D"confluenceTd"><span>2/20/2020</span><br><span> 2:00 AM</span><=
+/td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td colspan=3D"1" style=3D"text-align: center;" class=3D"confluenceTd">3</t=
+d>
+<td colspan=3D"1" class=3D"confluenceTd">Perform Santiy checks (All Plugins=
+) &amp; Monitor logs</td>
+<td colspan=3D"1" class=3D"confluenceTd">Jira Admin</td>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/20/2020</span><br><br></td=
+>
+<td colspan=3D"1" class=3D"confluenceTd"><span>2/20/2020</span><br><br></td=
+>
+<td colspan=3D"1" class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;"><br></p></th>
+<th class=3D"confluenceTh"><p><br></p></th>
+<th class=3D"confluenceTh"><p><br></p></th>
+<th class=3D"confluenceTh"><p><br></p></th>
+<th class=3D"confluenceTh"><p><br></p></th>
+<th class=3D"confluenceTh"><p>&nbsp;</p></th>
+<th class=3D"confluenceTh"><p>&nbsp;</p></th>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_149574_1116888150.1591900946285
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: 7bit
+Content-Location: file:///C:/9c671dfea37bbae0d093c361cb69dcb6
+
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.001 13.408l-3.785 2.433c-.753.484-1.714-.19-1.516-1.063l1.048-4.613L.332 7.091c-.65-.586-.287-1.667.586-1.74l4.436-.372L7.07.632c.334-.843 1.527-.843 1.86 0L10.65 4.98l4.436.372c.873.073 1.236 1.154.585 1.74l-3.415 3.074 1.048 4.613c.198.874-.763 1.547-1.516 1.063l-3.786-2.433z" fill="#2684FF" fill-rule="nonzero"/></svg>
+------=_Part_149574_1116888150.1591900946285
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: 7bit
+Content-Location: file:///C:/4ed6fb073dba456b77d09f110cc09f9b
+
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.001 13.408l-3.785 2.433c-.753.484-1.714-.19-1.516-1.063l1.048-4.613L.332 7.091c-.65-.586-.287-1.667.586-1.74l4.436-.372L7.07.632c.334-.843 1.527-.843 1.86 0L10.65 4.98l4.436.372c.873.073 1.236 1.154.585 1.74l-3.415 3.074 1.048 4.613c.198.874-.763 1.547-1.516 1.063l-3.786-2.433z" fill="#FF5630" fill-rule="nonzero"/></svg>
+------=_Part_149574_1116888150.1591900946285
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: 7bit
+Content-Location: file:///C:/0544e6d734e5339513ac8174b898d522
+
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.001 13.408l-3.785 2.433c-.753.484-1.714-.19-1.516-1.063l1.048-4.613L.332 7.091c-.65-.586-.287-1.667.586-1.74l4.436-.372L7.07.632c.334-.843 1.527-.843 1.86 0L10.65 4.98l4.436.372c.873.073 1.236 1.154.585 1.74l-3.415 3.074 1.048 4.613c.198.874-.763 1.547-1.516 1.063l-3.786-2.433z" fill="#36B37E" fill-rule="nonzero"/></svg>
+------=_Part_149574_1116888150.1591900946285
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: 7bit
+Content-Location: file:///C:/e8833b70f6b97366aaeb9cb55febd621
+
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.001 13.408l-3.785 2.433c-.753.484-1.714-.19-1.516-1.063l1.048-4.613L.332 7.091c-.65-.586-.287-1.667.586-1.74l4.436-.372L7.07.632c.334-.843 1.527-.843 1.86 0L10.65 4.98l4.436.372c.873.073 1.236 1.154.585 1.74l-3.415 3.074 1.048 4.613c.198.874-.763 1.547-1.516 1.063l-3.786-2.433z" fill="#FFC400" fill-rule="nonzero"/></svg>
+------=_Part_149574_1116888150.1591900946285--

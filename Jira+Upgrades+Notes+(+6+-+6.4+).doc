@@ -1,0 +1,446 @@
+Message-ID: <1494068713.149579.1591901153673.JavaMail.pesadmin@pla-w01eaux06.walgreens.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_149578_556049928.1591901153673"
+
+------=_Part_149578_556049928.1591901153673
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Jira Upgrades Notes ( 6 - 6.4 )</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Jira Upgrades Notes ( 6 - 6.4 )</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<tbody>=20
+<tr>=20
+<th class=3D"confluenceTh"><p> S.No </p></th>=20
+<th class=3D"confluenceTh"><p> Upgrade Note <br class=3D"atl-forced-newline=
+"> </p></th>=20
+<th class=3D"confluenceTh"><p> Status <br class=3D"atl-forced-newline"> </p=
+></th>=20
+<th class=3D"confluenceTh"><p> Remarks <br class=3D"atl-forced-newline"> </=
+p></th>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p> 1. <br class=3D"atl-forced-newline"> </p></t=
+d>=20
+<td class=3D"confluenceTd"><p> Disabling inline edit no longer allowed </p>=
+</td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p> No impact <br class=3D"atl-forced-newline"> =
+</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> GreenHopper versions older than 6.2 will not=
+ be compatible with JIRA 6.0 </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p> Greenhopper plugin will be upgraded accordin=
+gly. <br class=3D"atl-forced-newline"> Currently we have 6.1.5 version inst=
+alled. <br class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> JSON-P no longer supported </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p> No integrations done with JSON-P </p></td>=
+=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> Atlassian analytics </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p> There is a new General Configuration option =
+for JIRA that enables you to turn on/off Atlassian analytics. <br class=3D"=
+atl-forced-newline"> Analytics are now collected using the Atlassian Analyt=
+ics add-on. The add-on collects analytics events in a log file which is loc=
+ated in the JIRA home directory under the analytics-logs sub directory. The=
+ logs are periodically uploaded using an encrypted session and then deleted=
+. If the JIRA installation is unable to connect to the Internet, no logs ar=
+e ever uploaded. <br class=3D"atl-forced-newline"> </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> Supported platforms changes </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd">
+<ul>=20
+<li>Project keys with characters other than letters, numbers and the unders=
+core are no longer supported.</li>=20
+<li>CVS/ViewCVS functionality has been removed from JIRA and is no longer s=
+upported.</li>=20
+<li>"Voters and Watchers" and "Labels" plugins will not be supported in JIR=
+A 6.1. Note, these plugins are not bundled with JIRA</li>=20
+</ul> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> Supported platforms changes </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd">
+<ul>=20
+<li>Project keys with characters other than letters, numbers and the unders=
+core are no longer supported.</li>=20
+<li>CVS/ViewCVS functionality has been removed from JIRA and is no longer s=
+upported.</li>=20
+<li>"Voters and Watchers" and "Labels" plugins will not be supported in JIR=
+A 6.1. Note, these plugins are not bundled with JIRA</li>=20
+</ul> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> JIRA Administrators cannot delete users that=
+ have commented on issues </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p> If you are a JIRA administrator, you can del=
+ete a user from JIRA only if they have not performed any of the following a=
+ctions:&nbsp;&nbsp;&nbsp; <br class=3D"atl-forced-newline"></p>=20
+<ul>=20
+<li>reported or been assigned to any issues</li>=20
+<li>commented on any issues</li>=20
+</ul> </td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> "View Issue Source Tab" permission renamed <=
+/p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p> The "View Issue Source Tab" project permissi=
+on has been renamed to "View Development Tools". </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> Custom field creation changes <br class=3D"a=
+tl-forced-newline"> Custom field creation changes <br class=3D"atl-forced-n=
+ewline"> JIRA workflow designer , transition&nbsp; changes <br class=3D"atl=
+-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> Removal of JQL function "echo()" </p></td>=
+=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> JIRA 6.2 will be the last major release that=
+ supports Internet Explorer 8 (IE8) </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> Labels and Popular Issues tabs removed from =
+Project Overview </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> <strong>Rename user and JIRA as a Crowd serv=
+er</strong> </p></td>=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> End of support for Jelly Scripts in jira 6.4=
+ <br class=3D"atl-forced-newline"> </p></td>=20
+<td class=3D"confluenceTd"><p> Need to Check <br class=3D"atl-forced-newlin=
+e"> </p></td>=20
+<td class=3D"confluenceTd"><p> JIRA 6.4 does not support Jelly scripts. If =
+you are using Jelly scripts with JIRA, we recommend you move to Groovy Scri=
+pt Runner or the JIRA Command Line Interface, which will provide you with m=
+ore flexible options. </p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p> Enabling drag and drop attachments </p></td>=
+=20
+<td class=3D"confluenceTd"><p> <img class=3D"emoticon emoticon-tick" src=3D=
+"c98809b11d7af85949fb6ebee449ff25" data-emoticon-name=3D"tick" alt=3D"(tick=
+)"> </p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+<tr>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>=20
+</tr>=20
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_149578_556049928.1591901153673
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: 7bit
+Content-Location: file:///C:/c98809b11d7af85949fb6ebee449ff25
+
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#00875A" cx="8" cy="8" r="8"/><path d="M10.242 4.474a.941.941 0 0 1 1.634.934L8.11 11.996a.941.941 0 0 1-1.54.136L4.218 9.308a.941.941 0 1 1 1.446-1.205L7.15 9.886l3.093-5.412z" stroke="#FFF" stroke-width=".2" fill="#FFF" fill-rule="nonzero"/></g></svg>
+------=_Part_149578_556049928.1591901153673--

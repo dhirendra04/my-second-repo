@@ -1,0 +1,483 @@
+Message-ID: <1161153039.149658.1591901406338.JavaMail.pesadmin@pla-w01eaux06.walgreens.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_149657_217343429.1591901406338"
+
+------=_Part_149657_217343429.1591901406338
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>KT Documentation</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>KT Documentation</h1>
+    <div class=3D"Section1">
+        <p><br></p>
+<div class=3D"table-wrap">
+<table class=3D"confluenceTable">
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<tbody>
+<tr>
+<th class=3D"confluenceTh"><p>S.No</p></th>
+<th class=3D"confluenceTh"><p>Topics</p></th>
+<th class=3D"confluenceTh"><p>Description</p></th>
+<th class=3D"confluenceTh"><p>Documentation Link</p></th>
+<th class=3D"confluenceTh"><p>&nbsp;</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>1</p></td>
+<td class=3D"confluenceTd"><p>Walgreens Atlassian Tools Architecture</p></t=
+d>
+<td class=3D"confluenceTd"><p>Will cover the server setup of Atlassian apps=
+ and tools in ecommerce i.e ecomjira , ecomwiki , <br class=3D"atl-forced-n=
+ewline"> &nbsp;crowd, Database. A wiki SOP is available for the same.</p></=
+td>
+<td class=3D"confluenceTd"><p><a href=3D"/pages/viewpage.action?pageId=3D44=
+4072764">Architecture setup of PLA-W01EAUX03 &amp; PLA-W01EAUX04</a> ---- &=
+gt; Production Setup <br class=3D"atl-forced-newline"> <br class=3D"atl-for=
+ced-newline"> How to restart Applications : <br class=3D"atl-forced-newline=
+"><a href=3D"/display/ecomadmin/JIRA+and+Wiki+Setups+and+procedure+to+resta=
+rt+Applications">JIRA and Wiki Setups and procedure to restart Applications=
+</a><br class=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <a =
+href=3D"https://ecomwiki.walgreens.com/display/ecomadmin/Staging+Server+Set=
+Up" rel=3D"nofollow">https://ecomwiki.walgreens.com/display/ecomadmin/Stagi=
+ng+Server+SetUp</a></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2</p></td>
+<td class=3D"confluenceTd"><p>Jira Admin activities, <br class=3D"atl-force=
+d-newline"> Project Creation - Agile Project in Walgreens</p></td>
+<td class=3D"confluenceTd"><p>When we have new agile project creation in ji=
+ra, have BAS / CES project has model.</p></td>
+<td class=3D"confluenceTd"><p><a class=3D"external-link" href=3D"https://ec=
+omjira.walgreens.com/plugins/servlet/project-config/BAS/summary" rel=3D"nof=
+ollow">https://ecomjira.walgreens.com/plugins/servlet/project-config/BAS/su=
+mmary</a> <br class=3D"atl-forced-newline"> <a class=3D"external-link" href=
+=3D"https://ecomjira.walgreens.com/plugins/servlet/project-config/CES/summa=
+ry" rel=3D"nofollow">https://ecomjira.walgreens.com/plugins/servlet/project=
+-config/CES/summary</a></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>3</p></td>
+<td class=3D"confluenceTd"><p>Onestopshop wiki</p></td>
+<td class=3D"confluenceTd"><p>A plugin that was written internally&nbsp; to=
+ show Release status.</p></td>
+<td class=3D"confluenceTd"><p><a class=3D"external-link" href=3D"http://wag=
+wiki.walgreens.com/stash/projects/ECOMMDEVOPS/repos/jira-repo/browse" rel=
+=3D"nofollow">http://wagwiki.walgreens.com/stash/projects/ECOMMDEVOPS/repos=
+/jira-repo/browse</a> <br class=3D"atl-forced-newline"> <br class=3D"atl-fo=
+rced-newline"> Files are at <a class=3D"external-link" href=3D"http://wagwi=
+ki.walgreens.com/stash/projects/ECOMMDEVOPS/repos/jira-repo/browse/OneStopW=
+iki/OneStopWiki" rel=3D"nofollow">http://wagwiki.walgreens.com/stash/projec=
+ts/ECOMMDEVOPS/repos/jira-repo/browse/OneStopWiki/OneStopWiki</a> <br class=
+=3D"atl-forced-newline"> <br class=3D"atl-forced-newline"> <br class=3D"atl=
+-forced-newline">Login pla-w01eaux04 to do changes (SOAP IS NOT SUPPORTED F=
+ROM JIRA 7.XX SCRIPT IS CONVERTED TO REST API REFER <a href=3D"https://ecom=
+wiki.walgreens.com/display/ecomadmin/Jira+Upgrade+Plan+From+6.4.12+to+7.9.2=
+" rel=3D"nofollow" style=3D"font-size: 14.0px;letter-spacing: 0.0px;line-he=
+ight: 1.4285715;">https://ecomwiki.walgreens.com/display/ecomadmin/Jira+Upg=
+rade+Plan+From+6.4.12+to+7.9.2</a> for details)</p><p><br class=3D"atl-forc=
+ed-newline"> Installed python script at&nbsp;pla-w01eaux03 in /usr/local/ec=
+omm/atlassian/data/scripts/soap_rest_api<br class=3D"atl-forced-newline"> <=
+br class=3D"atl-forced-newline"> Property file is at onestop.conf&nbsp;. An=
+y changes to fixversions to be edited here. <br class=3D"atl-forced-newline=
+"> <br class=3D"atl-forced-newline"> Script that runs for every one hour is=
+ at /usr/local/ecomm/atlassian/scripts/onestopshop.sh</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>4</p></td>
+<td class=3D"confluenceTd"><p>User management - details&nbsp; on&nbsp; LDAP=
+ Authentication</p></td>
+<td class=3D"confluenceTd"><p>User authentication related issues and fix.</=
+p></td>
+<td class=3D"confluenceTd"><p><a href=3D"/download/attachments/303726740/Di=
+rectories%20and%20Login%20details.docx?version=3D1&amp;modificationDate=3D1=
+485778259000&amp;api=3Dv2" data-linked-resource-id=3D"304807950" data-linke=
+d-resource-version=3D"1" data-linked-resource-type=3D"attachment" data-link=
+ed-resource-default-alias=3D"Directories and Login details.docx" data-nice-=
+type=3D"Word Document" data-linked-resource-content-type=3D"application/vnd=
+.openxmlformats-officedocument.wordprocessingml.document" data-linked-resou=
+rce-container-id=3D"303726740" data-linked-resource-container-version=3D"52=
+">Directories and Login details.docx</a></p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>5</p></td>
+<td class=3D"confluenceTd"><p>New plugins installed in dev</p></td>
+<td class=3D"confluenceTd"><p>Vercaode, Xray, Activity Timeline Plugin that=
+ are request by users for esting has been installed in dev environment.</p>=
+</td>
+<td class=3D"confluenceTd"><p>* <strong>Vercaode Plugin</strong> requested =
+by <span style=3D"color: rgb(33,33,33);">Alexandru Garneata</span> and team=
+ . Installation <a href=3D"/download/attachments/303726740/VeracodeImportPl=
+ugin.pdf?version=3D1&amp;modificationDate=3D1485955548000&amp;api=3Dv2" dat=
+a-linked-resource-id=3D"305659923" data-linked-resource-version=3D"1" data-=
+linked-resource-type=3D"attachment" data-linked-resource-default-alias=3D"V=
+eracodeImportPlugin.pdf" data-nice-type=3D"PDF Document" data-linked-resour=
+ce-content-type=3D"application/pdf" data-linked-resource-container-id=3D"30=
+3726740" data-linked-resource-container-version=3D"52">Veracode Installatio=
+n steps</a> and required files&nbsp; are at <a href=3D"/download/attachment=
+s/303726740/VeracodeJiraPlugin%20%284%29.zip?version=3D1&amp;modificationDa=
+te=3D1485772971000&amp;api=3Dv2" data-linked-resource-id=3D"304807944" data=
+-linked-resource-version=3D"1" data-linked-resource-type=3D"attachment" dat=
+a-linked-resource-default-alias=3D"VeracodeJiraPlugin (4).zip" data-nice-ty=
+pe=3D"Zip Archive" data-linked-resource-content-type=3D"application/zip" da=
+ta-linked-resource-container-id=3D"303726740" data-linked-resource-containe=
+r-version=3D"52">VeracodeJiraPlugin (4).zip</a>&nbsp; <br class=3D"atl-forc=
+ed-newline"> <br class=3D"atl-forced-newline"> http://secaux02.walgreens.co=
+m:8095/secure/admin/jira/flawSynchronizer\!flawAdministration.jspa\|http://=
+secaux02.walgreens.com:8095/secure/admin/jira/flawSynchronizer\!flawAdminis=
+tration.jspa (http://secaux02.walgreens.com:8095/secure/admin/jira/flawSync=
+hronizer\!flawAdministration.jspa) <br class=3D"atl-forced-newline"> <br cl=
+ass=3D"atl-forced-newline"> * <strong>Xray Plugin</strong> (<a class=3D"ext=
+ernal-link" href=3D"http://confluence.xpand-addons.com/display/XRAY/About+X=
+ray+for+JIRA" rel=3D"nofollow">http://confluence.xpand-addons.com/display/X=
+RAY/About+Xray+for+JIRA</a>) - Requested by QA Team <br class=3D"atl-forced=
+-newline"> <span style=3D"color: rgb(0,0,0);">Xray</span><span style=3D"col=
+or: rgb(0,0,0);">&nbsp;</span><span style=3D"color: rgb(0,0,0);">plugin is =
+installed in dev instance with one project (QATP ) created&nbsp;for Testing=
+. Followed the concept of "</span><span style=3D"color: rgb(0,0,0);">Don't =
+mix my Requirements and Defects with Tests" as explained in&nbsp;</span><a =
+class=3D"external-link" href=3D"http://confluence.xpand-addons.com/display/=
+XRAY/Project%27s+Organisation" rel=3D"nofollow">http://confluence.xpand-add=
+ons.com/display/XRAY/Project%27s+Organisation</a><span style=3D"color: rgb(=
+0,0,0);">&nbsp;</span><br class=3D"atl-forced-newline"> <span style=3D"colo=
+r: rgb(0,0,0);">&nbsp;</span><br class=3D"atl-forced-newline"> <span style=
+=3D"color: rgb(0,0,0);">&nbsp;</span><br class=3D"atl-forced-newline"> <spa=
+n style=3D"color: rgb(0,0,0);">Dev Instance :&nbsp;</span><a class=3D"exter=
+nal-link" href=3D"http://secaux02.walgreens.com:8095/secure/Dashboard.jspa"=
+ rel=3D"nofollow">http://secaux02.walgreens.com:8095/secure/Dashboard.jspa<=
+/a><br class=3D"atl-forced-newline"> <span style=3D"color: rgb(0,0,0);">Xra=
+y</span><span style=3D"color: rgb(0,0,0);">&nbsp;</span><span style=3D"colo=
+r: rgb(0,0,0);">Test Project : &nbsp;</span><a class=3D"external-link" href=
+=3D"http://secaux02.walgreens.com:8095/projects/QATP" rel=3D"nofollow">http=
+://secaux02.walgreens.com:8095/projects/QATP</a><span style=3D"color: rgb(0=
+,0,0);">&nbsp; &nbsp;(&nbsp;</span><span style=3D"color: rgb(0,0,0);">QA TE=
+ST Project )</span><br class=3D"atl-forced-newline"> <br class=3D"atl-force=
+d-newline"> * <strong>Activity time line Plugin</strong> : Requested by Eri=
+n Dublin and team <br class=3D"atl-forced-newline"> Installed at <a class=
+=3D"external-link" href=3D"http://secaux02.walgreens.com:8040/" rel=3D"nofo=
+llow">http://secaux02.walgreens.com:8040/</a> <br class=3D"atl-forced-newli=
+ne"> user name : jiraadmin <br class=3D"atl-forced-newline"> password : tem=
+p@password123 <br class=3D"atl-forced-newline"> <br class=3D"atl-forced-new=
+line"> Documentation : <a href=3D"/download/attachments/303726740/ActivityT=
+imeline-Admin-Guide%20%281%29.pdf?version=3D1&amp;modificationDate=3D148577=
+7494000&amp;api=3Dv2" data-linked-resource-id=3D"304807945" data-linked-res=
+ource-version=3D"1" data-linked-resource-type=3D"attachment" data-linked-re=
+source-default-alias=3D"ActivityTimeline-Admin-Guide (1).pdf" data-nice-typ=
+e=3D"PDF Document" data-linked-resource-content-type=3D"application/pdf" da=
+ta-linked-resource-container-id=3D"303726740" data-linked-resource-containe=
+r-version=3D"52">Activity TimeLine plugin Installation</a><br class=3D"atl-=
+forced-newline"> Installed in secaux02 at /usr/local/ecomm/atlassian/test_i=
+nstances/jira_new/activitytimeline/</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>6</p></td>
+<td class=3D"confluenceTd"><p>Monthly crowd and team calendar License Updat=
+e</p></td>
+<td class=3D"confluenceTd"><p>Monthly crowd and team calendar License are t=
+o be updated.</p></td>
+<td class=3D"confluenceTd"><p><a href=3D"/download/attachments/303726740/li=
+censing.docx?version=3D1&amp;modificationDate=3D1485778610000&amp;api=3Dv2"=
+ data-linked-resource-id=3D"304807951" data-linked-resource-version=3D"1" d=
+ata-linked-resource-type=3D"attachment" data-linked-resource-default-alias=
+=3D"licensing.docx" data-nice-type=3D"Word Document" data-linked-resource-c=
+ontent-type=3D"application/vnd.openxmlformats-officedocument.wordprocessing=
+ml.document" data-linked-resource-container-id=3D"303726740" data-linked-re=
+source-container-version=3D"52">Crowd and Team Calendar licensing.docx</a> =
+[NOT IN USE}</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>7</p></td>
+<td class=3D"confluenceTd"><p>Monthly user deactivation Activity</p></td>
+<td class=3D"confluenceTd"><p>Users who have not logged in for more than 3 =
+months are to be deactivated in jira and wiki,</p></td>
+<td class=3D"confluenceTd"><p><a class=3D"external-link" href=3D"https://ec=
+omjira.walgreens.com/browse/JRA-1898" rel=3D"nofollow">https://ecomjira.wal=
+greens.com/browse/JRA-1898</a><br class=3D"atl-forced-newline"> Run the las=
+t query commented in ticket JRA-1898 . get the user list and disable in jir=
+a adn wiki ids. <br class=3D"atl-forced-newline"> <br class=3D"atl-forced-n=
+ewline"> Query to be executed in jiradb at pla-w01eaux03</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>8</p></td>
+<td class=3D"confluenceTd"><p>/var logs clearance</p></td>
+<td class=3D"confluenceTd"><p>if&nbsp;/dev/mapper/rootvg6-var in pla-w01eau=
+x03 server reaches 100% , jira will not send email</p></td>
+<td class=3D"confluenceTd"><p><strong>Email to&nbsp;<span style=3D"color: r=
+gb(0,0,0);">2L-EISOPSUNIX</span></strong></p><p><span style=3D"color: black=
+;">the /var&nbsp; mount reaches &gt; 90% it piles up immediately &amp; mail=
+s might not get delivered to users from the respective server (Jira/Wiki). =
+Just need to forward the email to unix team and ask them to clear the file&=
+nbsp;<span>/var/log/messages-*&nbsp;</span></span><span style=3D"color: bla=
+ck;">&nbsp;in the respective server.&nbsp;</span></p><p><span style=3D"colo=
+r: black;">It is applicable to&nbsp;<span>/var</span>&nbsp;mount location a=
+lone as we will not have permission to clear, the other locations&nbsp;are =
+managed by us &amp; we can clear the logs.&nbsp;/mnt can be ignored as it h=
+as huge attachments.</span></p><p><span style=3D"color: black;">&nbsp;</spa=
+n></p><p><span style=3D"color: rgb(50,49,48);">/mnt&nbsp; 1.8T&nbsp;&nbsp;&=
+nbsp; 1.3T&nbsp;&nbsp;&nbsp; 383G&nbsp;&nbsp;&nbsp; 78%</span><span style=
+=3D"color: rgb(50,49,48);"><br></span><span style=3D"color: rgb(50,49,48);"=
+>/var&nbsp; 5.8G&nbsp;&nbsp;&nbsp; 4.6G&nbsp;&nbsp;&nbsp; 928M&nbsp;&nbsp;&=
+nbsp; 84%</span><span style=3D"color: rgb(50,49,48);"><br></span><span styl=
+e=3D"color: rgb(50,49,48);">/usr/local/ecomm/logs&nbsp; 9.8G&nbsp;&nbsp;&nb=
+sp; 6.5G&nbsp;&nbsp;&nbsp; 2.8G&nbsp;&nbsp;&nbsp; 70%</span></p><p><span st=
+yle=3D"color: black;">&nbsp;</span></p><p><strong><span style=3D"color: rgb=
+(50,49,48);">Sample mailer to them:</span></strong></p><p><span style=3D"co=
+lor: black;">&nbsp;</span></p><p><strong><span style=3D"color: rgb(50,49,48=
+);">Please clear the logs in&nbsp;/var/log/messages-*</span></strong></p><p=
+><br class=3D"atl-forced-newline"><br class=3D"atl-forced-newline"></p></td=
+>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_149657_217343429.1591901406338--

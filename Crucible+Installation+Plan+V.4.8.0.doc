@@ -1,0 +1,561 @@
+Message-ID: <1499893556.149500.1591900773932.JavaMail.pesadmin@pla-w01eaux06.walgreens.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_149499_998657173.1591900773931"
+
+------=_Part_149499_998657173.1591900773931
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Crucible Installation Plan V.4.8.0</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Crucible Installation Plan V.4.8.0</h1>
+    <div class=3D"Section1">
+        <p></p>
+<ul class=3D"childpages-macro">
+<li><a href=3D"/display/ecomadmin/Crucible+V4.8.0+Installation+Handbook">Cr=
+ucible V4.8.0 Installation Handbook</a></li>
+</ul>
+<p></p>
+<div class=3D"table-wrap">
+<table class=3D"relative-table wrapped confluenceTable" style=3D"width: 100=
+.0%;">
+<colgroup>
+<col style=3D"width: 3.10661%;">
+<col style=3D"width: 37.5245%;">
+<col style=3D"width: 6.13146%;">
+<col style=3D"width: 4.08764%;">
+<col style=3D"width: 6.04971%;">
+<col style=3D"width: 5.55919%;">
+<col style=3D"width: 37.1158%;">
+</colgroup>
+<thead>
+<tr>
+<th class=3D"confluenceTh"><p>#</p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;">Pre-Tasks</p></=
+th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;">Owner</p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;">Status</p></th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;">Start Time</p><=
+/th>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;">End Time</p></t=
+h>
+<th class=3D"confluenceTh"><p style=3D"text-align: center;">Remarks</p></th=
+>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class=3D"confluenceTd"><p>1.0</p></td>
+<td class=3D"confluenceTd"><p>Confirm Firewalls open to <span>pla-w01eaux05=
+.walgreens.com &amp;</span> pla-w01eaux06.walgreens.com</p></td>
+<td class=3D"confluenceTd"><p>Tom/Cicero</p></td>
+<td class=3D"confluenceTd"><p><img class=3D"emoticon emoticon-green-star" t=
+itle=3D"(green star)" src=3D"0544e6d734e5339513ac8174b898d522" alt=3D"(gree=
+n star)" border=3D"0"></p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p>Stash &amp; GIT Servers were not having expli=
+cit rules to allow connection below rules were implemented</p><p>FWR-940 FW=
+R-930</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>1.1</p></td>
+<td class=3D"confluenceTd"><p>Check if New server is compatible with Atlass=
+ian system Requirement</p></td>
+<td class=3D"confluenceTd"><p>Jira Admin&nbsp;</p></td>
+<td class=3D"confluenceTd"><p><img class=3D"emoticon emoticon-green-star" t=
+itle=3D"(green star)" src=3D"0544e6d734e5339513ac8174b898d522" alt=3D"(gree=
+n star)" border=3D"0"></p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p><br></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<a class=3D"external-link" href=3D"http=
+s://confluence.atlassian.com/crucible/supported-platforms-298977375.html" r=
+el=3D"nofollow">https://confluence.atlassian.com/crucible/supported-platfor=
+ms-298977375.html</a></p></td>
+</tr>
+<tr>
+<th class=3D"confluenceTh"><p><br></p></th>
+<th class=3D"confluenceTh"><p><span style=3D"color: rgb(0,0,0);"><strong>Pr=
+od Day Deployment</strong></span></p></th>
+<th class=3D"confluenceTh"><p><span style=3D"color: rgb(0,0,0);"><strong>Ow=
+ner</strong></span></p></th>
+<th class=3D"confluenceTh"><p>&nbsp;</p></th>
+<th class=3D"confluenceTh"><p>&nbsp;</p></th>
+<th class=3D"confluenceTh"><p>&nbsp;</p></th>
+<th class=3D"confluenceTh"><p>&nbsp;</p></th>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.01</p></td>
+<td class=3D"confluenceTd">Download the Crucible Installer from Atlassian s=
+ite<p><br></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p><span class=3D"confluence-embedded-file-wrapp=
+er"><img class=3D"confluence-embedded-image emoticon emoticon-green-star co=
+nfluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e5339513a=
+c8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_US/770=
+2/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/star_gr=
+een.svg"></span>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>12:00 AM</p></td>
+<td class=3D"confluenceTd"><p>12:10 AM&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<a class=3D"external-link" href=3D"http=
+s://www.atlassian.com/software/crucible/downloads/binary/crucible-4.8.0.zip=
+" rel=3D"nofollow">https://www.atlassian.com/software/crucible/downloads/bi=
+nary/crucible-4.8.0.zip</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.02</p></td>
+<td class=3D"confluenceTd"><p>Install Crucible V.4.8.0</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p>12:10 AM</p></td>
+<td class=3D"confluenceTd"><p>12:15 AM</p></td>
+<td class=3D"confluenceTd"><p>Follow the article for detailed instructions =
+&nbsp;<a class=3D"external-link" href=3D"https://confluence.atlassian.com/c=
+rucible/installing-crucible-on-linux-and-mac-298977373.html" rel=3D"nofollo=
+w">https://confluence.atlassian.com/crucible/installing-crucible-on-linux-a=
+nd-mac-298977373.html</a></p><p>Change the Home directory to SAN using FISH=
+EYE_INST parameter in fisheyectl.sh file</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.03</p></td>
+<td class=3D"confluenceTd"><p>Install MySQL mysql-5.6.41 &amp; Required JDB=
+C driver&nbsp;</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p>12:15 AM</p></td>
+<td class=3D"confluenceTd"><p>12:30 AM</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;Follow Article for detailed instruction=
+s</p><p><a class=3D"external-link" href=3D"https://confluence.atlassian.com=
+/crucible/migrating-to-mysql-298977509.html" rel=3D"nofollow">https://confl=
+uence.atlassian.com/crucible/migrating-to-mysql-298977509.html</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.04</p></td>
+<td class=3D"confluenceTd"><p>Install JRE V1.8.0_102</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p><span>12:30 AM</span></p></td>
+<td class=3D"confluenceTd"><p><span>12:40 AM</span></p></td>
+<td class=3D"confluenceTd"><p>Copy the jre directory from Prod Jira &amp; p=
+oint the directory in fisheyectl.sh file under JAVA_HOME parameter</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.05</p></td>
+<td class=3D"confluenceTd"><p><span>Apply Cacerts from Jira &amp; Outgoing =
+Proxy to enable Marketplace connection</span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p>12:40 AM</p></td>
+<td class=3D"confluenceTd"><p>12:45 AM</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.06</p></td>
+<td class=3D"confluenceTd"><p>Start Crucible &amp; Link Stash &amp; Jira vi=
+a Application links</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p><span>12:45 AM</span></p></td>
+<td class=3D"confluenceTd"><p>1:00 AM</p></td>
+<td class=3D"confluenceTd"><p>Ensure firewall is opened for port 80,443 <sp=
+an>for <a class=3D"external-link" href=3D"http://wagwiki.walgreens.com/stas=
+h" rel=3D"nofollow">wagwiki.walgreens.com/stash</a> &amp; Ports </span>22,7=
+999 for <span style=3D"color: rgb(51,51,51);">patlap03 server</span></p></t=
+d>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.07</p></td>
+<td class=3D"confluenceTd"><p>Link Crucible with Jira for Authentication</p=
+></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p><span>1:00 AM</span></p></td>
+<td class=3D"confluenceTd"><p>1:10 AM</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.08</p></td>
+<td class=3D"confluenceTd"><p>Setup Groups in Jira (crucible-users &amp; re=
+po-users) to allow users to access Crucible</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p><span>1:10 AM</span></p></td>
+<td class=3D"confluenceTd"><p><span>1:20 AM</span></p></td>
+<td class=3D"confluenceTd"><p>Sync is set to 30 mins, If a new user is adde=
+d in a group, Directory needs to be synced in Crucible for changes to refle=
+ct</p><p><a class=3D"external-link" href=3D"http://pla-w01eaux06.walgreens.=
+com:8096/plugins/servlet/embedded-crowd/directories/list" rel=3D"nofollow">=
+http://pla-w01eaux06.walgreens.com:8096/plugins/servlet/embedded-crowd/dire=
+ctories/list</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.09</p></td>
+<td class=3D"confluenceTd">Migrate the database to Mysql<p><br></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p>1:20 AM</p></td>
+<td class=3D"confluenceTd">1:45 AM</td>
+<td class=3D"confluenceTd"><p>For Detailed instructions Refer Step 2 Option=
+ 1 in <a class=3D"external-link" href=3D"https://confluence.atlassian.com/c=
+rucible/migrating-to-mysql-298977509.html" rel=3D"nofollow">https://conflue=
+nce.atlassian.com/crucible/migrating-to-mysql-298977509.html</a></p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.10</p></td>
+<td class=3D"confluenceTd">Restart Crucible and Test Login, Repo pull , Pro=
+ject Creation &amp; Reviews</td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p><span>1:45 AM</span></p></td>
+<td class=3D"confluenceTd"><p>2:00 AM</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.11</p></td>
+<td class=3D"confluenceTd"><p>Perform High level test with help of a Develo=
+per</p><p>Add Repo<br>Pull Repo<br>Add Project<br>Perform Review</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p><span>2:00 AM</span></p></td>
+<td class=3D"confluenceTd"><p>2:30 AM</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p>2.12</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Notify use=
+rs to start using Crucible <a class=3D"external-link" href=3D"http://pla-w0=
+1eaux06.walgreens.com:8096/" rel=3D"nofollow">http://pla-w01eaux06.walgreen=
+s.com:8096/</a></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">RM</span><=
+/p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd">5/14/2020<p><br></p></td>
+<td class=3D"confluenceTd">5/14/2020<p><br></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0,0);"><strong>=
+3</strong></span></p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(255,0,0);"><strong>=
+RollBack</strong></span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+</tr>
+<tr>
+<td class=3D"confluenceTd"><p><strong>3.1</strong></p></td>
+<td class=3D"confluenceTd"><p>Not Applicable</p></td>
+<td class=3D"confluenceTd"><p><span style=3D"color: rgb(0,0,0);">Jira Admin=
+</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;<span class=3D"confluence-embedded-file=
+-wrapper"><img class=3D"confluence-embedded-image emoticon emoticon-green-s=
+tar confluence-external-resource" alt=3D"(green star)" src=3D"0544e6d734e53=
+39513ac8174b898d522" data-image-src=3D"https://ecomwiki.walgreens.com/s/en_=
+US/7702/fee96fdad3b600d4843bc89ccaf16ec6d71d5b89/_/images/icons/emoticons/s=
+tar_green.svg"></span><span>&nbsp;</span></p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><p>&nbsp;</p></td>
+<td class=3D"confluenceTd"><br></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_149499_998657173.1591900773931
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: 7bit
+Content-Location: file:///C:/0544e6d734e5339513ac8174b898d522
+
+<svg width="16" height="16" xmlns="http://www.w3.org/2000/svg"><path d="M8.001 13.408l-3.785 2.433c-.753.484-1.714-.19-1.516-1.063l1.048-4.613L.332 7.091c-.65-.586-.287-1.667.586-1.74l4.436-.372L7.07.632c.334-.843 1.527-.843 1.86 0L10.65 4.98l4.436.372c.873.073 1.236 1.154.585 1.74l-3.415 3.074 1.048 4.613c.198.874-.763 1.547-1.516 1.063l-3.786-2.433z" fill="#36B37E" fill-rule="nonzero"/></svg>
+------=_Part_149499_998657173.1591900773931--
