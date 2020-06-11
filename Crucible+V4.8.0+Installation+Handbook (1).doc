@@ -1,0 +1,676 @@
+Message-ID: <617803783.149224.1591899874345.JavaMail.pesadmin@pla-w01eaux06.walgreens.com>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_149223_403153412.1591899874344"
+
+------=_Part_149223_403153412.1591899874344
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>Crucible V4.8.0 Installation Handbook</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: #fff !important;
+        color: #000 !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: #000;
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, "Courier New", monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>Crucible V4.8.0 Installation Handbook</h1>
+    <div class=3D"Section1">
+        <h2 id=3D"CrucibleV4.8.0InstallationHandbook-|flat">
+<div class=3D"toc-macro">
+[=20
+<a href=3D"#CrucibleV4.8.0InstallationHandbook-|flat"></a> ] [=20
+<a href=3D"#CrucibleV4.8.0InstallationHandbook-CrucibleSetup:">Crucible Set=
+up:</a> ] [=20
+<a href=3D"#CrucibleV4.8.0InstallationHandbook-MySqlSetup:(v-5.6.41asperreq=
+uirementmatrix)">MySql Set up: (v&nbsp;-5.6.41 as per requirement matrix)</=
+a> ] [=20
+<a href=3D"#CrucibleV4.8.0InstallationHandbook-CrucibleDatabaseSetupandMigr=
+ation">Crucible Database Setup and Migration</a> ] [=20
+<a href=3D"#CrucibleV4.8.0InstallationHandbook-CrucibleApplicationStart/Sto=
+p">Crucible Application Start / Stop</a> ] [=20
+<a href=3D"#CrucibleV4.8.0InstallationHandbook-CrucibleDatabaseStart/Stop">=
+Crucible Database Start / Stop</a> ] [=20
+<a href=3D"#CrucibleV4.8.0InstallationHandbook-CrucibleAccessProvisioningfo=
+rNewUser">Crucible Access Provisioning for New User</a> ]
+</div></h2>
+<p> </p>
+<div class=3D"plugin_attachments_container">=20
+<div class=3D"plugin_attachments_table_container">=20
+<fieldset class=3D"hidden">=20
+<input type=3D"hidden" class=3D"plugin_attachments_macro_render_param" name=
+=3D"pageId" value=3D"477136530">=20
+<input type=3D"hidden" name=3D"deleteConfirmMessage" value=3D"Are you sure =
+you want to send the attached file " {0}" to the trash? only a space admini=
+strator can undo this action.">=20
+<input type=3D"hidden" name=3D"outputType" value=3D"word">=20
+</fieldset>=20
+<table class=3D"attachments aui">=20
+<thead>=20
+<tr>=20
+<th class=3D"expand-column attachment-summary-toggle">&nbsp;</th>=20
+<th class=3D"filename-column"> <a href=3D"/display/ecomadmin/Crucible+V4.8.=
+0+Installation+Handbook?sortBy=3Dname&amp;sortOrder=3Dascending">File</a> <=
+/th>=20
+<th class=3D"modified-column"> <span class=3D"propersortedby $sortOrder"><a=
+ href=3D"/display/ecomadmin/Crucible+V4.8.0+Installation+Handbook?sortBy=3D=
+date&amp;sortOrder=3Ddescending">Modified</a></span> </th>=20
+</tr>=20
+</thead>=20
+<tbody>=20
+<tr id=3D"attachment-478024448" class=3D"attachment-row" data-attachment-id=
+=3D"478024448" data-attachment-idx=3D"1">=20
+<td class=3D"attachment-summary-toggle"> <span class=3D"icon icon-section-c=
+losed" title=3D"Show more info"></span> </td>=20
+<td class=3D"filename-column"> <span class=3D"aui-icon content-type-attachm=
+ent-word" title=3D"Microsoft Word Document">Microsoft Word Document</span> =
+<a class=3D"filename" href=3D"/download/attachments/477136530/Crucible_User=
+%20Guide.docx?api=3Dv2" title=3D"Download" data-filename=3D"Crucible_User G=
+uide.docx" data-type=3D"application/vnd.openxmlformats-officedocument.wordp=
+rocessingml.document" data-linked-resource-container-id=3D"477136530"> Cruc=
+ible_User Guide.docx </a> </td>=20
+<td class=3D"attachment-created modified-column"> <span>about 10 hours ago<=
+/span> <span>by</span> <a href=3D"    /display/~sravisri
+" class=3D"url fn confluence-userlink" data-username=3D"sravisri">Sreeram R=
+avishankar</a> </td>=20
+</tr>=20
+<tr class=3D"attachment-summary attachment-summary-478024448 hidden" data-a=
+ttachment-id=3D"478024448" data-attachment-filename=3D"Crucible_User Guide.=
+docx">=20
+<td class=3D"attachment-summary-toggle"></td>=20
+<td class=3D"attachment-details-wrapper" colspan=3D"2"> <p class=3D"attachm=
+ent-labels">Labels</p>=20
+<div class=3D"labels-section-content content-column" entityid=3D"478024448"=
+ entitytype=3D"attachment">=20
+<div class=3D"labels-content">=20
+<ul class=3D"label-list  has-pen">=20
+<li class=3D"no-labels-message"> No labels </li>=20
+<li class=3D"labels-edit-container"> <a href=3D"#" class=3D"show-labels-edi=
+tor" title=3D"Edit Labels"> <span class=3D"aui-icon aui-icon-small aui-icon=
+font-devtools-tag-small">Edit Labels</span> </a> </li>=20
+</ul>=20
+</div>=20
+</div>=20
+<div class=3D"attachment-history-wrapper"></div>=20
+<div class=3D"attachment-buttons">=20
+<a class=3D"aui-button previewAttachmentLink" data-filename=3D"Crucible_Use=
+r Guide.docx" data-file-src=3D"/download/attachments/477136530/Crucible_Use=
+r%20Guide.docx?api=3Dv2" data-linked-resource-default-alias=3D"Crucible_Use=
+r Guide.docx" data-mime-type=3D"application/vnd.openxmlformats-officedocume=
+nt.wordprocessingml.document" data-linked-resource-container-id=3D"47713653=
+0" data-linked-resource-id=3D"478024448">Preview</a>=20
+<a class=3D"aui-button " href=3D"/pages/worddav/preview.action?fileName=3DC=
+rucible_User+Guide.docx&amp;pageId=3D477136530">View</a>=20
+<a class=3D"aui-button office-editable" href=3D"/plugins/servlet/confluence=
+/editinword/477136530/attachments/Crucible_User Guide.docx">Edit in Office<=
+/a>=20
+<a class=3D"aui-button editAttachmentLink" href=3D"/pages/editattachment.ac=
+tion?pageId=3D477136530&amp;fileName=3DCrucible_User+Guide.docx&amp;isFromP=
+ageView=3Dtrue">Properties</a>=20
+<a class=3D"aui-button removeAttachmentLink" href=3D"/pages/confirmattachme=
+ntremoval.action?pageId=3D477136530&amp;fileName=3DCrucible_User+Guide.docx=
+">Delete</a>=20
+</div> </td>=20
+</tr>=20
+</tbody>=20
+</table>=20
+</div>=20
+<div class=3D"plugin_attachments_upload_container">=20
+<div class=3D"attachments-table-drop-zone">=20
+<li class=3D"drop-zone-text">=20
+<div class=3D"drop-zone-image"></div> <span>Drag and drop to upload or <a c=
+lass=3D"aui-button aui-button-link browse-files">browse for files</a></span=
+> <img src=3D"48b487fa93439d314996f484ecf10d29" class=3D"plugin_attachments=
+_dropzone_uploadwaiticon" width=3D"16" height=3D"16"> </li>=20
+<form method=3D"POST" class=3D"plugin_attachments_uploadform aui hidden" ac=
+tion=3D"/pages/plugins/attachments/doattachfile.action?pageId=3D477136530" =
+enctype=3D"multipart/form-data">=20
+<input type=3D"hidden" name=3D"atl_token" value=3D"ad0041a8659dec7be7f06f29=
+791a3e9c556caea3">=20
+<div class=3D"field-group">=20
+<label>Upload file</label>=20
+<input type=3D"file" name=3D"file_0" size=3D"30">=20
+</div>=20
+<div class=3D"field-group">=20
+<label>File description</label>=20
+<input type=3D"text" class=3D"blank-search text" name=3D"comment_0" size=3D=
+"20" placeholder=3D"Comment">=20
+<input type=3D"hidden" name=3D"labels" value=3D"$macroParams.labels">=20
+</div>=20
+<div class=3D"field-group">=20
+<input type=3D"submit" class=3D"submit aui-button" name=3D"confirm" value=
+=3D"Upload">=20
+</div>=20
+<iframe class=3D"plugin_attachments_uploadiframe hidden" name=3D"7zvXFsT1ZF=
+NhbrN1i4o4YR5VxOmCZfB56JWgneTPUaHN15fqA6Hmucn3QwVN4GiW" src=3D""></iframe>=
+=20
+</form>=20
+</div>=20
+</div>=20
+<div>=20
+</div>=20
+</div>=20
+<p></p>
+<h2 id=3D"CrucibleV4.8.0InstallationHandbook-CrucibleSetup:">Crucible Setup=
+:</h2>
+<ol>
+<li><p>Download Crucible from&nbsp;<a class=3D"external-link" href=3D"https=
+://www.atlassian.com/software/crucible/downloads/binary/crucible-4.8.0.zip"=
+ rel=3D"nofollow">https://www.atlassian.com/software/crucible/downloads/bin=
+ary/crucible-4.8.0.zip</a></p></li>
+<li><p>Extract the Zip file to&nbsp;/usr/local/ecomm/atlassian/crucible/ di=
+rectory in pla-w01eaux06 directory&nbsp;</p>
+<ol>
+<li><strong>This is called as Installation Directory -&nbsp;/usr/local/ecom=
+m/atlassian/crucible/fecru-4.8.0/</strong></li>
+</ol></li>
+<li><p>Copy the Existing JRE of Jira to the Crucible directory (This includ=
+es cacerts as well)</p>
+<ol>
+<li><p>/usr/local/ecomm/atlassian/jira/atlassian-jira-6.4.12-standalone/jre=
+ <strong>TO&nbsp;</strong>/usr/local/ecomm/atlassian/crucible/fecru-4.8.0/j=
+re</p></li>
+</ol></li>
+<li><p>Edit the below files located under fisheye bin directory add these p=
+arameters</p>
+<ol>
+<li><p>start.sh &amp;&nbsp;fisheyectl.sh</p>
+<ol>
+<li><p>JAVA_HOME=3D/usr/local/ecomm/atlassian/crucible/fecru-4.8.0/jre</p><=
+/li>
+</ol></li>
+<li>Add this additional parameter in&nbsp;fisheyectl.sh
+<ol>
+<li><p>FISHEYE_INST=3D/usr/local/ecomm/atlassian/data/crucible/crucible-dat=
+a&nbsp;(<strong>This is Called as Fisheye home directory</strong>)</p></li>
+<li>Locate and Change the default&nbsp;FISHEYE_CMD as below (<strong>Outgoi=
+ng Proxy settings</strong>)
+<ol>
+<li><p>FISHEYE_OPTS=3D"-Dhttp.proxyHost=3D<a class=3D"external-link" href=
+=3D"http://wagcorppac.walgreens.com" rel=3D"nofollow">wagcorppac.walgreens.=
+com</a> -Dhttp.proxyPort=3D8080 '-Dhttp.nonProxyHosts=3Dlocalhost|*.<a clas=
+s=3D"external-link" href=3D"http://walgreens.com" rel=3D"nofollow">walgreen=
+s.com</a>'"<br>FISHEYE_OPTS=3D"-Dhttps.proxyHost=3D<a class=3D"external-lin=
+k" href=3D"http://wagcorppac.walgreens.com" rel=3D"nofollow">wagcorppac.wal=
+greens.com</a> -Dhttps.proxyPort=3D8080 ${FISHEYE_OPTS}"<br>FISHEYE_CMD=3D"=
+$JAVACMD $FISHEYE_OPTS -Dfisheye.library.path=3D$FISHEYE_LIBRARY_PATH -Dfis=
+heye.inst=3D$FISHEYE_INST -Djava.awt.headless=3Dtrue -Djava.endorsed.dirs=
+=3D$FISHEYE_HOME/lib/endorsed -jar $FISHEYE_HOME/fisheyeboot.jar"</p></li>
+</ol></li>
+</ol></li>
+</ol></li>
+<li><p>Edit the config.xml file and change the http bind port to 8096</p>
+<ol>
+<li>&lt;http bind=3D":8096"/&gt;</li>
+</ol></li>
+<li>Start Crucible using start.sh or "fisheyectl.sh start" located in bin d=
+irectory under&nbsp;<strong>/usr/local/ecomm/atlassian/crucible/fecru-4.8.0=
+/</strong>
+<ol>
+<li>If all setup properly Fisheye should start in&nbsp;<a class=3D"external=
+-link" href=3D"http://pla-w01eaux06.walgreens.com:8096/" rel=3D"nofollow">h=
+ttp://pla-w01eaux06.walgreens.com:8096/</a></li>
+</ol></li>
+<li>Login and create a local admin user to manage the application <a href=
+=3D"https://ecomwiki.walgreens.com/display/ecomadmin/Credentials" rel=3D"no=
+follow"><strong>(Credentials saved here)</strong></a></li>
+<li>Link Stash &amp; Jira Applications via Application Link</li>
+<li>Go to&nbsp;<a class=3D"external-link" href=3D"http://pla-w01eaux06.walg=
+reens.com:8096/admin/admin.do#repositories-stash" rel=3D"nofollow">http://p=
+la-w01eaux06.walgreens.com:8096/admin/admin.do#repositories-stash</a>&nbsp;=
+and add a Repo (Stash Authentication required)
+<ol>
+<li>If all goes well you will be able to see the repo in&nbsp;<a class=3D"e=
+xternal-link" href=3D"http://pla-w01eaux06.walgreens.com:8096/admin/admin.d=
+o#repositories-native" rel=3D"nofollow">http://pla-w01eaux06.walgreens.com:=
+8096/admin/admin.do#repositories-native</a></li>
+</ol></li>
+<li>Set up Authentication directory using Jira (Referr&nbsp;<a class=3D"ext=
+ernal-link" href=3D"https://confluence.atlassian.com/fisheye/connecting-to-=
+jira-for-user-management-960155582.html" rel=3D"nofollow">https://confluenc=
+e.atlassian.com/fisheye/connecting-to-jira-for-user-management-960155582.ht=
+ml</a>)</li>
+<li>Crucible is now Configured and ready to be used</li>
+</ol>
+<h2 id=3D"CrucibleV4.8.0InstallationHandbook-MySqlSetup:(v-5.6.41asperrequi=
+rementmatrix)">MySql Set up: (v&nbsp;-5.6.41 as per requirement matrix)</h2=
+>
+<ol>
+<li>Create the below Directory in&nbsp;pla-w01eaux06
+<ol>
+<li>/usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL</li>
+<li>/usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/conf</li>
+<li>/usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/run</li>
+<li>/usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/socket</li>
+</ol></li>
+<li>Download the Mysql Binary located in&nbsp;/usr/local/ecomm/atlassian/da=
+ta/mysql/confluenceMYSQL/mysql-5.6.41-linux-glibc2.12-x86_64 <strong style=
+=3D"letter-spacing: 0.0px;">TO</strong>/usr/local/ecomm/atlassian/data/mysq=
+l/crucibleMYSQL</li>
+<li>Navigate to&nbsp;/usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/my=
+sql-5.6.41-linux-glibc2.12-x86_64/scripts and run the script "mysql_install=
+_db" to install Mysql&nbsp; as below
+<ol>
+<li>./mysql_install_db&nbsp;-u root --basedir=3D/usr/local/ecomm/atlassian/=
+data/mysql/crucibleMYSQL/mysql-5.6.41-linux-glibc2.12-x86_64/&nbsp;--datadi=
+r=3D/usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/mysql_data</li>
+</ol></li>
+<li>Create mysql configuration file as below
+<ol>
+<li>vi&nbsp;/usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/conf/my.cnf
+<ol>
+<li><p>[mysqld]<br>transaction-isolation =3D READ-COMMITTED<br>character-se=
+t-server=3Dutf8<br>collation-server=3Dutf8_bin<br>default-storage-engine=3D=
+INNODB<br>max_allowed_packet=3D1024m<br>port=3D6668<br>user=3Dpesadmin<br>b=
+asedir=3D/usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/mysql-5.6.41-l=
+inux-glibc2.12-x86_64<br>datadir=3D/usr/local/ecomm/atlassian/data/mysql/cr=
+ucibleMYSQL/mysql_data<br>socket=3D/usr/local/ecomm/atlassian/data/mysql/cr=
+ucibleMYSQL/socket/mysql.sock<br>pid-file=3D/usr/local/ecomm/atlassian/data=
+/mysql/crucibleMYSQL/run/mysql.pid</p></li>
+</ol></li>
+</ol></li>
+<li><p>Navigate to&nbsp;usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/=
+mysql-5.6.41-linux-glibc2.12-x86_64/ and start the mysql database as below<=
+/p>
+<ol>
+<li>./bin/mysqld_safe --defaults-file=3D../conf/my.cnf &amp;</li>
+<li>Tail the&nbsp;<a class=3D"external-link" href=3D"http://pla-w01eaux06.w=
+algreens.com" rel=3D"nofollow">pla-w01eaux06.walgreens.com</a>.err - If no =
+error reported all is well</li>
+</ol></li>
+</ol>
+<h2 id=3D"CrucibleV4.8.0InstallationHandbook-CrucibleDatabaseSetupandMigrat=
+ion">Crucible Database Setup and Migration</h2>
+<p style=3D"margin-left: 30.0px;">Referance&nbsp;<a class=3D"external-link"=
+ href=3D"https://confluence.atlassian.com/fisheye/migrating-to-mysql-960155=
+589.html" rel=3D"nofollow">https://confluence.atlassian.com/fisheye/migrati=
+ng-to-mysql-960155589.html</a></p>
+<ol>
+<li>Download JDBC driver from&nbsp;<a class=3D"external-link" href=3D"http:=
+//dev.mysql.com/downloads/connector/j/" rel=3D"nofollow" style=3D"letter-sp=
+acing: 0.0px;">http://dev.mysql.com/downloads/connector/j/</a>&nbsp;and pla=
+ce it in&nbsp;<code style=3D"letter-spacing: 0.0px;">FISHEYE_INST/lib</code=
+><span style=3D"letter-spacing: 0.0px;">&nbsp;directory as mentioned in the=
+ </span>prerequisite<span style=3D"letter-spacing: 0.0px;">&nbsp;section</s=
+pan></li>
+<li>Logon to Mysql running in pla-w01eaux06:6668 as below
+<ol>
+<li>/usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/mysql-5.6.41-linux-=
+glibc2.12-x86_64/bin/mysql -u root&nbsp;--socket=3D/usr/local/ecomm/atlassi=
+an/data/mysql/crucibleMYSQL/socket/mysql.sock --port=3D6668</li>
+</ol></li>
+<li>Create Crucible database as mentioned in&nbsp;<a class=3D"external-link=
+" href=3D"https://confluence.atlassian.com/fisheye/migrating-to-mysql-96015=
+5589.html" rel=3D"nofollow">https://confluence.atlassian.com/fisheye/migrat=
+ing-to-mysql-960155589.html</a>
+<ol>
+<li><p>SET GLOBAL default_storage_engine =3D 'InnoDB';</p></li>
+<li><p>CREATE DATABASE fisheye CHARACTER SET utf8 COLLATE utf8_bin;</p></li=
+>
+<li><p>GRANT ALL PRIVILEGES ON fisheye.* TO 'root'@'localhost' IDENTIFIED B=
+Y '<span style=3D"color: rgb(255,102,0);"><a href=3D"https://ecomwiki.walgr=
+eens.com/display/ecomadmin/Credentials" rel=3D"nofollow"><span style=3D"col=
+or: rgb(255,102,0);">PASSWORD MENTIONED HERE</span></a></span>';</p></li>
+<li><p>FLUSH PRIVILEGES;</p></li>
+<li><p>QUIT</p></li>
+</ol></li>
+<li>Navigate to Crucible Database page&nbsp;<a class=3D"external-link" href=
+=3D"http://pla-w01eaux06.walgreens.com:8096/admin/database.do" rel=3D"nofol=
+low">http://pla-w01eaux06.walgreens.com:8096/admin/database.do</a></li>
+<li>Click on Edit&nbsp;&gt; Change the DB Type to <span style=3D"color: rgb=
+(112,112,112);">Mysql with the below confi</span><br>
+<ol>
+<li><span style=3D"color: rgb(112,112,112);">jdbc:<a href=3D"mysql://localh=
+ost:6668/fisheye?characterEncoding=3Dutf8&amp;useUnicode=3Dtrue&amp;session=
+Variables=3Dstorage_engine%3DInnoDB&amp;useJDBCCompliantTimezoneShift=3Dtru=
+e&amp;useLegacyDatetimeCode=3Dfalse&amp;serverTimezone=3DUTC" rel=3D"nofoll=
+ow">mysql://localhost:6668/fisheye?characterEncoding=3Dutf8&amp;useUnicode=
+=3Dtrue&amp;sessionVariables=3Dstorage_engine%3DInnoDB&amp;useJDBCCompliant=
+TimezoneShift=3Dtrue&amp;useLegacyDatetimeCode=3Dfalse&amp;serverTimezone=
+=3DUTC</a><br></span></li>
+<li>username=3Droot</li>
+<li>password=3Dmentioned in credentials page</li>
+<li>Test the connection &amp; click on save &amp; migrate</li>
+</ol></li>
+<li>Database should be migrated to confirm go to System information page an=
+d check the DB Parameters</li>
+</ol>
+<h2 id=3D"CrucibleV4.8.0InstallationHandbook-CrucibleApplicationStart/Stop"=
+>Crucible Application Start / Stop</h2>
+<p><strong>Starting Crucible</strong></p>
+<ol>
+<li>Switch to pesadmin in pla-w01eaux06 server</li>
+<li>grep for Curiclble process <strong>ps -ef | grep crucible</strong></li>
+<li>If nothing returns proceed to next step (Else if "<strong>/usr/local/ec=
+omm/atlassian/crucible/fecru-4.8.0/fisheyeboot.jar start</strong>" returns =
+in result Crucible is already running and skip this Step completely)</li>
+<li>Execute&nbsp; cd&nbsp;/usr/local/ecomm/atlassian/crucible/fecru-4.8.0/<=
+/li>
+<li>Execute:&nbsp; ./bin/start.sh</li>
+<li>grep for Crucible process <strong>ps -ef | grep crucible&nbsp;</strong>=
+again to check if application is started.</li>
+<li>Access the link&nbsp;<a class=3D"external-link" href=3D"http://pla-w01e=
+aux06.walgreens.com:8096/" rel=3D"nofollow">http://pla-w01eaux06.walgreens.=
+com:8096/</a>&nbsp;after few mins</li>
+</ol>
+<p><strong>Stopping Crucible</strong></p>
+<ol>
+<li>Switch to pesadmin in pla-w01eaux06 server</li>
+<li>grep for Curiclble process&nbsp;<strong>ps -ef | grep crucible&nbsp;</s=
+trong>(If&nbsp;<strong>/usr/local/ecomm/atlassian/crucible/fecru-4.8.0/fish=
+eyeboot.jar start&nbsp;</strong>returns in result move to step 4)</li>
+<li>If nothing returns Crucible is already Stopped</li>
+<li>Navigate to&nbsp;<strong>/usr/local/ecomm/atlassian/crucible/fecru-4.8.=
+0/</strong></li>
+<li>Execute ./bin/stop.sh (If error appears execute kill -9 and PID returne=
+d in step 2)</li>
+<li>Wait for few minutes and grep for process again <strong>ps -ef | grep c=
+rucible&nbsp;</strong>the Java process should not be running &amp; you are =
+done</li>
+</ol>
+<h2 id=3D"CrucibleV4.8.0InstallationHandbook-CrucibleDatabaseStart/Stop">Cr=
+ucible Database Start / Stop</h2>
+<p><strong>Starting Crucible Database</strong></p>
+<ol>
+<li>Switch to pesadmin in pla-w01eaux06 server</li>
+<li>Navigate to&nbsp; /usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/m=
+ysql-5.6.41-linux-glibc2.12-x86_64/</li>
+<li>issue the command&nbsp;<strong>./bin/mysqld_safe --defaults-file=3D../c=
+onf/my.cnf &amp;</strong></li>
+<li>grep for Crucible and ensure the below process is returned
+<ol>
+<li><span style=3D"color: rgb(51,51,153);">/usr/local/ecomm/atlassian/data/=
+mysql/crucibleMYSQL/mysql-5.6.41-linux-glibc2.12-x86_64/bin/mysqld --defaul=
+ts-fie=3D../conf/my.cnf --basedir=3D/usr/local/ecomm/atlassian/data/mysql/c=
+rucibleMYSQL/mysql-5.6.41-linux-glibc2.12-x86_64 --datadir=3D/usr/local/eco=
+mm/atlassian/data/mysl/crucibleMYSQL/mysql_data --plugin-dir=3D/usr/local/e=
+comm/atlassian/data/mysql/crucibleMYSQL/mysql-5.6.41-linux-glibc2.12-x86_64=
+/lib/plugin --log-error=3D<a class=3D"external-link" href=3D"http://pla-w01=
+eax06.walgreens.com" rel=3D"nofollow"><span style=3D"color: rgb(51,51,153);=
+">pla-w01eax06.walgreens.com</span></a>.err --pid-file=3D/usr/local/ecomm/a=
+tlassian/data/mysql/crucibleMYSQL/run/mysql.pid --socket=3D/usr/local/ecomm=
+/atlassian/data/mysql/crucibleMYSQL/ocket/mysql.sock --port=3D6668</span></=
+li>
+</ol></li>
+<li><span style=3D"color: rgb(51,51,153);">Done</span></li>
+</ol>
+<p><strong style=3D"letter-spacing: 0.0px;">Stopping Crucible Database</str=
+ong></p>
+<ol>
+<li>Switch to pesadmin in pla-w01eaux06 server</li>
+<li>Navigate to&nbsp; /usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/m=
+ysql-5.6.41-linux-glibc2.12-x86_64/</li>
+<li>issue the command&nbsp;<strong>./bin/mysqladmin -u root -p&nbsp;--socke=
+t=3D/usr/local/ecomm/atlassian/data/mysql/crucibleMYSQL/socket/mysql.sock -=
+-port=3D6668 shutdown</strong></li>
+<li>Key in the password located in<strong>&nbsp;Credentials Page</strong></=
+li>
+<li>wait for few minutes</li>
+<li>grep for process&nbsp;<strong>ps -ef | grep&nbsp;crucibleMYSQL&nbsp;</s=
+trong>if no result returns you are done</li>
+</ol>
+<h2 id=3D"CrucibleV4.8.0InstallationHandbook-CrucibleAccessProvisioningforN=
+ewUser">Crucible Access Provisioning for New User</h2>
+<p>Crucible is Integrated with Jira for Authentication.</p>
+<p>Add the Users under "<strong>crucible-users</strong>" &amp; "<strong>rep=
+o-users" </strong>in Jira</p>
+<p>Go to&nbsp;<a class=3D"external-link" href=3D"http://pla-w01eaux06.walgr=
+eens.com:8096/plugins/servlet/embedded-crowd/directories/list" rel=3D"nofol=
+low">http://pla-w01eaux06.walgreens.com:8096/plugins/servlet/embedded-crowd=
+/directories/list</a>&nbsp;(Login as Admin) &amp; Sync the Jira directory i=
+f the user wants to logon immediately Or advice the user to wait for 30 Min=
+utes</p>
+<p><br></p>
+<p><strong><br></strong></p>
+    </div>
+</body>
+</html>
+------=_Part_149223_403153412.1591899874344
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/48b487fa93439d314996f484ecf10d29
+
+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
+fySDhGYQdDWGQyUhADs=
+------=_Part_149223_403153412.1591899874344--
